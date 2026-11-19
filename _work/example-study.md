@@ -2,14 +2,15 @@
 title: Why new users abandoned onboarding
 summary: Interviews and usability tests showed users didn't understand what the product was for. The team replaced a five-step setup with one task, and completion rose.
 year: 2025
-role: Lead researcher
-methods: User interviews, Usability testing, Funnel analysis
-timeline: 6 weeks
-team: 1 researcher, 2 designers, 1 PM, 3 engineers
+role: UX Researcher
+methods: Screener Survey, User Interviews, Competitive Analysis, Moderated & Unmoderated Usability Testing
+timeline: November 2022 - August 2023 (10 months)
+team: Team size of 10 ( 2 PMs, 2 UX Researchers, 3 Designers, 3 Developers)
+tools: Qualtrics, Maze, FigJam, Figma
 order: 1
 # To show a company logo or picture on the home page tile, remove the # on the next two lines
-# company: Acme
-# logo: /images/acme.png
+# company: BobaTalks
+# logo: /images/boba.jpg
 ---
 
 ## The problem
