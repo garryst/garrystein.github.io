@@ -26,6 +26,7 @@ layout: default
       {% for s in studies %}
       <a class="tile" href="{{ s.url | relative_url }}">
         <div class="tile-top"><span class="tile-year">{{ s.year }}</span><span class="tile-role">{{ s.role }}</span></div>
+        {% if s.logo %}<div class="tile-logo"><img src="{{ s.logo | relative_url }}" alt="{% if s.company %}{{ s.company }} logo{% endif %}"></div>{% endif %}
         <h3>{{ s.title }}</h3>
         <p>{{ s.summary }}</p>
         <ul class="tags">{% assign tags = s.methods | split: ", " %}{% for t in tags %}<li>{{ t }}</li>{% endfor %}</ul>
