@@ -7,7 +7,8 @@ layout: default
     <p class="hero-sub">{{ page.subhead }}</p>
     <div class="actions">
       <a class="btn btn-light" href="#work">See my work</a>
-      {% if site.resume %}<a class="btn btn-line" href="{% if site.resume contains 'http' %}{{ site.resume }}{% else %}{{ site.resume | relative_url }}{% endif %}">View resume</a>{% endif %}
+      {% if s.logo %}<div class="tile-logo"><img src="{{ s.logo | relative_url }}" alt="{% if s.company %}{{ s.company }} logo{% endif %}"></div>{% endif %}
+    <h3>{{ s.title }}</h3>
     </div>
     <dl class="facts-row">
       {% if page.now %}<div><dt>Now</dt><dd>{{ page.now }}</dd></div>{% endif %}
