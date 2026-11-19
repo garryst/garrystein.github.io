@@ -5,7 +5,7 @@ title: Home
 headline: I research what people need, then help teams act on it.
 subhead: I'm a UX researcher focused on understanding people and the problems worth solving. Explore how my research has helped teams make informed decisions, uncover opportunities, and shape better user experiences.
 now: Grainger
-focus: Your research focus
+focus: Qualitative UX Research & Mixed Methods
 based: Salt Lake City, UT
 open_to: Mid and Senior Roles
 skills:
