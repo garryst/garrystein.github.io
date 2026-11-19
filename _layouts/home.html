@@ -1,0 +1,62 @@
+---
+layout: default
+---
+<section class="hero">
+  <div class="wrap">
+    <h1>{{ page.headline }}</h1>
+    <p class="hero-sub">{{ page.subhead }}</p>
+    <div class="actions">
+      <a class="btn btn-light" href="#work">See my work</a>
+      {% if site.resume %}<a class="btn btn-line" href="{% if site.resume contains 'http' %}{{ site.resume }}{% else %}{{ site.resume | relative_url }}{% endif %}">View resume</a>{% endif %}
+    </div>
+    <dl class="facts-row">
+      {% if page.now %}<div><dt>Now</dt><dd>{{ page.now }}</dd></div>{% endif %}
+      {% if page.focus %}<div><dt>Focus</dt><dd>{{ page.focus }}</dd></div>{% endif %}
+      {% if page.based %}<div><dt>Based in</dt><dd>{{ page.based }}</dd></div>{% endif %}
+      {% if page.open_to %}<div><dt>Open to</dt><dd>{{ page.open_to }}</dd></div>{% endif %}
+    </dl>
+  </div>
+</section>
+
+<section id="work" class="section">
+  <div class="wrap">
+    <h2 class="section-title">Selected work</h2>
+    <div class="tiles">
+      {% assign studies = site.work | sort: "order" %}
+      {% for s in studies %}
+      <a class="tile" href="{{ s.url | relative_url }}">
+        <div class="tile-top"><span class="tile-year">{{ s.year }}</span><span class="tile-role">{{ s.role }}</span></div>
+        <h3>{{ s.title }}</h3>
+        <p>{{ s.summary }}</p>
+        <ul class="tags">{% assign tags = s.methods | split: ", " %}{% for t in tags %}<li>{{ t }}</li>{% endfor %}</ul>
+      </a>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+<section id="about" class="section section-mist">
+  <div class="wrap about-grid">
+    <div class="prose about-text">
+      <h2 class="section-title">About me</h2>
+      {{ content }}
+    </div>
+    <aside class="about-side">
+      <h3>Methods and tools</h3>
+      <ul class="tags tags-solid">
+        {% for skill in page.skills %}<li>{{ skill }}</li>{% endfor %}
+      </ul>
+    </aside>
+  </div>
+</section>
+
+<section id="contact" class="section">
+  <div class="wrap">
+    <h2 class="section-title">{{ page.contact_heading | default: "Get in touch" }}</h2>
+    <p class="contact-text">{{ page.contact_text }}</p>
+    <div class="actions">
+      <a class="btn btn-dark" href="mailto:{{ site.email }}">Send an email</a>
+      <a class="btn btn-outline" href="{{ site.linkedin }}">Connect on LinkedIn</a>
+    </div>
+  </div>
+</section>
