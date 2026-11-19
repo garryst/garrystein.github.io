@@ -189,3 +189,5 @@ a:focus-visible { outline: 3px solid var(--link); outline-offset: 3px; border-ra
   body { font-size: 1.15rem; }
   .tile { padding: 1.5rem; min-height: 0; }
 }
+.tile-logo { background: #fff; border-radius: 12px; height: 5rem; padding: 0.6rem 1rem; display: flex; align-items: center; }
+.tile-logo img { max-height: 100%; max-width: 100%; object-fit: contain; }
