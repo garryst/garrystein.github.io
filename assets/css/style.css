@@ -191,9 +191,9 @@ a:focus-visible { outline: 3px solid var(--link); outline-offset: 3px; border-ra
 }
 
 /* Company logo or picture on project tiles */
-
 .tile-logo { background: #fff; border-radius: 12px; height: 5rem; padding: 0.6rem 1rem; display: flex; align-items: center; }
 .tile-logo img { max-height: 100%; max-width: 100%; object-fit: contain; }
+
+/* Picture in the About section */
 .about-art { margin: 0 0 2rem; }
 .about-art img { width: 100%; max-width: 26rem; height: auto; display: block; border-radius: 20px; }
-.about-art figcaption { font-size: 1.05rem; color: var(--muted); margin-top: 0.6rem; }
