@@ -1,0 +1,25 @@
+# Site settings: edit these first.
+title: Your Name
+tagline: UX researcher
+description: UX research portfolio of Your Name. Case studies on how research shaped product decisions.
+email: you@example.com
+linkedin: https://www.linkedin.com/in/your-handle
+
+# If your site lives at https://username.github.io/repo-name, set baseurl to "/repo-name".
+# If your repo is named username.github.io, leave it as "".
+baseurl: ""
+url: ""
+
+collections:
+  work:
+    output: true
+    permalink: /work/:name/
+
+defaults:
+  - scope:
+      path: ""
+      type: work
+    values:
+      layout: case-study
+
+markdown: kramdown
