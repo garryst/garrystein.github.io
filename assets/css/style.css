@@ -1,14 +1,14 @@
 :root {
   --ink: #121722;
   --muted: #4a5468;
-  --mist: #f1f3f9;
+  --mist: #eef5f1;
   --line: #d8dce8;
-  --indigo: #25238c;
-  --link: #3f3dd1;
-  --t1: #e3e2ff;
-  --t2: #d6f1e2;
+  --indigo: #0f5a3c;
+  --link: #0a7a4d;
+  --t1: #d9f2e4;
+  --t2: #e6f0c9;
   --t3: #ffe8c4;
-  --t4: #d9eafb;
+  --t4: #d4ecf0;
   --display: "Familjen Grotesk", "Helvetica Neue", Arial, sans-serif;
   --body: "Atkinson Hyperlegible", Verdana, "Helvetica Neue", Arial, sans-serif;
   --pad: clamp(1.25rem, 5vw, 5rem);
