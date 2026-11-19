@@ -1,5 +1,5 @@
 ---
-about_image: /images/profilepic.png
+about_image: /images/profilepic.webp
 layout: home
 title: Home
 headline: I research what people need, then help teams act on it.
