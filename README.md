@@ -2,12 +2,6 @@
 
 Edit Markdown files on github.com. GitHub rebuilds the site when you commit.
 
-## Installing this version
-1. Upload everything in this folder to the root of your repo (it replaces the old files).
-2. Delete the old `about.md` from your repo. The About section is now on the home page.
-3. Open `_config.yml` and re-enter your name, tagline, email and LinkedIn link.
-   Keep `baseurl: "/garrystein.github.io"` as it is.
-
 ## Where to edit things
 | What | File |
 | --- | --- |
