@@ -70,14 +70,14 @@ a:focus-visible { outline: 3px solid var(--link); outline-offset: 3px; border-ra
 .btn-outline:hover { background: var(--t1); }
 
 /* Home: hero */
-.hero { background: var(--indigo); color: #fff; padding-block: clamp(3.5rem, 9vw, 7rem) clamp(2.5rem, 5vw, 4rem); }
-.hero h1 { font-size: clamp(2.6rem, 6.4vw, 5.6rem); font-weight: 700; line-height: 1.03; max-width: 17em; }
-.hero-sub { font-size: clamp(1.25rem, 2vw, 1.6rem); max-width: 38rem; margin: 1.5rem 0 0; color: rgba(255, 255, 255, 0.9); }
+.hero { background: var(--indigo); color: #fff; padding-block: clamp(2.5rem, 5vw, 4rem) clamp(2rem, 4vw, 3rem); }
+.hero h1 { font-size: clamp(2rem, 4vw, 3.4rem); font-weight: 700; line-height: 1.1; max-width: 22em; }
+.hero-sub { font-size: clamp(1.15rem, 1.8vw, 1.35rem); max-width: 38rem; margin: 1rem 0 0; color: rgba(255, 255, 255, 0.9); }
 .hero a:focus-visible { outline-color: #fff; }
 
 .facts-row {
   display: grid; grid-template-columns: repeat(auto-fit, minmax(13rem, 1fr)); gap: 1.25rem 2rem;
-  margin: 3rem 0 0; padding-top: 1.5rem; border-top: 1px solid var(--line);
+  margin: 2rem 0 0; padding-top: 1.25rem; border-top: 1px solid var(--line);
 }
 .facts-row dt { font-family: var(--display); font-weight: 700; font-size: 1.05rem; color: var(--muted); }
 .facts-row dd { margin: 0.1rem 0 0; font-size: 1.2rem; }
