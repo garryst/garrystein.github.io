@@ -1,7 +1,6 @@
 ---
-title: Why new users abandoned onboarding
-summary: Interviews and usability tests showed users didn't understand what the product was for. The team replaced a five-step setup with one task, and completion rose.
-year: 2025
+title: BobaTalks Major Guide
+summary: Helping students explore college majors and careers based on their interests, skills, and passions.
 role: UX Researcher
 methods: Screener Survey, User Interviews, Competitive Analysis, Moderated & Unmoderated Usability Testing
 timeline: November 2022 - August 2023 (10 months)
