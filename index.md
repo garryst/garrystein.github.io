@@ -1,7 +1,5 @@
 ---
 about_image: /images/drawing.png
-about_image_alt: Describe the drawing in a short sentence
-about_caption: Drawn by my wife
 layout: home
 title: Home
 headline: I research what people need, then help teams act on it.
