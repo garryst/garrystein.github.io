@@ -1,14 +1,14 @@
 # Site settings: edit these first.
-title: Garry
-tagline: UX researcher
+title: Garry Stein
+tagline: UX Researcher
 description: Hello! I’m Garry, a passionate user experience researcher dedicated to understanding users' needs and behaviors. My goal is to ensure that every design is driven by a deep understanding of the users, creating intuitive and meaningful experiences!
 email: stein.garrya@@gmail.com
 linkedin: https://www.linkedin.com/in/garry-stein/
 
 # If your site lives at https://username.github.io/repo-name, set baseurl to "/repo-name".
 # If your repo is named username.github.io, leave it as "".
-baseurl: ""
-url: ""
+baseurl: "/garrystein.github.io"
+url: "/garrystein.github.io"
 
 collections:
   work:
