@@ -197,3 +197,7 @@ a:focus-visible { outline: 3px solid var(--link); outline-offset: 3px; border-ra
 /* Picture in the About section */
 .about-art { margin: 0 0 2rem; }
 .about-art img { width: 100%; max-width: 26rem; height: auto; display: block; border-radius: 20px; }
+
+/* Icons in footer links */
+.footer-inner a { display: inline-flex; align-items: center; gap: 0.4rem; }
+.footer-inner svg { width: 1.1rem; height: 1.1rem; flex: none; }
