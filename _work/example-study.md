@@ -54,8 +54,3 @@ State what changed because of your work, with numbers where you have them. If yo
 ## What I'd do differently
 
 Reflection shows judgment. Add one or two honest sentences.
-
-<!--
-To add an image, save it in the images folder and use this line (change the file name and the description):
-![Describe what the image shows]({{ '/images/name.png' | relative_url }})
--->
