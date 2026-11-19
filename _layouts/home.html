@@ -57,8 +57,12 @@ layout: default
     <h2 class="section-title">{{ page.contact_heading | default: "Get in touch" }}</h2>
     <p class="contact-text">{{ page.contact_text }}</p>
     <div class="actions">
-      <a class="btn btn-dark" href="mailto:{{ site.email }}">Send an email</a>
-      <a class="btn btn-outline" href="{{ site.linkedin }}">Connect on LinkedIn</a>
+      <a class="btn btn-dark" href="mailto:{{ site.email }}"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></svg>Send an email</a>
+      <a class="btn btn-outline" href="{{ site.linkedin }}"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>Connect on LinkedIn</a>
     </div>
   </div>
 </section>
+
+/* Icons inside buttons */
+.btn { display: inline-flex; align-items: center; gap: 0.6rem; }
+.btn svg { width: 1.3rem; height: 1.3rem; flex: none; }
