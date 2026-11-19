@@ -43,6 +43,7 @@ layout: default
       {{ content }}
     </div>
     <aside class="about-side">
+      {% if page.about_image %}<figure class="about-art"><img src="{{ page.about_image | relative_url }}" alt="{{ page.about_image_alt }}">{% if page.about_caption %}<figcaption>{{ page.about_caption }}</figcaption>{% endif %}</figure>{% endif %}
       <h3>Methods and tools</h3>
       <ul class="tags tags-solid">
         {% for skill in page.skills %}<li>{{ skill }}</li>{% endfor %}
