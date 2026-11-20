@@ -1,14 +1,14 @@
 ---
 title: Helping students explore majors and careers with the BobaTalks Major Guide
 summary: Research with students showed they wanted to explore their interests before committing to a major. Usability testing led to smaller cards, more class options, and a way to browse majors and careers without taking the quiz.
-year: 2025
-role: Sole UX researcher
+year: 2022
+role: UX researcher
 methods: Screener survey, User interviews, Competitive analysis, Usability testing, Affinity mapping
 team: Researchers, designers, product managers and developers
 order: 1
 company: BobaTalks
 # To show the BobaTalks logo on the home page tile, upload it to the images folder, then remove the # on the next line and match the file name
-# logo: /images/bobatalks.png
+logo: /images/bobatalks.png
 ---
 
 ## The problem
