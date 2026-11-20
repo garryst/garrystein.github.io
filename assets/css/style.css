@@ -1,12 +1,13 @@
 :root {
   --ink: #121722;
   --muted: #4a5468;
-  --mist: #eef5f1;
+  --mist: #eefaf3;
   --line: #d8dce8;
-  --indigo: #0f5a3c;
-  --link: #0a7a4d;
+  --indigo: #0b7a4b;
+  --bright: #19a85f;
+  --link: #0b7a4b;
   --t1: #d9f2e4;
-  --t2: #e6f0c9;
+  --t2: #dff5d3;
   --t3: #ffe8c4;
   --t4: #d4ecf0;
   --display: "Familjen Grotesk", "Helvetica Neue", Arial, sans-serif;
